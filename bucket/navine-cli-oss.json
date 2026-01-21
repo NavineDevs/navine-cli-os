@@ -4,7 +4,7 @@
   "homepage": "https://github.com/NavineDevs/navine-cli-oss",
   "license": "MIT",
   "url": "https://github.com/NavineDevs/navine-cli-oss/releases/download/os/navine-cli-oss.zip",
-  "hash": "SHA256",
+  "hash": "823f1590747d674412a9a6e8e2974e97647fe5807590562f35958bfec38f4a63",
   "bin": [
     "navine"
   ]
