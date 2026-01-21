@@ -4,10 +4,34 @@
   "homepage": "https://github.com/NavineDevs/navine-cli-oss",
   "license": "MIT",
 
-  "url": "https://github.com/NavineDevs/navine-cli-oss/releases/download/os/navine-cli-oss.zip",
-  "hash": "ddc78e99740270a265e770866d52663cb9f5f44b5b36f2c27313dba434977121",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/NavineDevs/navine-cli-oss/releases/download/os/navine-cli-oss.zip"
+    }
+  },
 
   "bin": [
-    "navine-cli-oss"
-  ]
+    "navine",
+    ["navine", "navine-cli-oss"]
+  ],
+
+  "depends": [
+    "git",
+    "mpv",
+    "yt-dlp",
+    "aria2",
+    "fzf"
+  ],
+
+  "checkver": {
+    "github": "https://github.com/NavineDevs/navine-cli-oss"
+  },
+
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/NavineDevs/navine-cli-oss/releases/download/os/navine-cli-oss.zip"
+      }
+    }
+  }
 }
