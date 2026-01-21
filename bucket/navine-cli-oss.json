@@ -5,21 +5,14 @@
   "license": "MIT",
 
   "url": "https://github.com/NavineDevs/navine-cli-oss/releases/download/os/navine-cli-oss.zip",
-  "extract_dir": "navine-cli-oss-main",
 
-  "bin": "navine-cli-oss",
+  "bin": "navine-cli-oss.cmd",
 
   "depends": [
-    "pwsh",
+    "git",
     "mpv",
     "yt-dlp",
-    "git",
-    "aria2",
-    "fzf"
-  ],
-
-  "notes": [
-    "Requires a POSIX shell (Git Bash, MSYS2, or WSL).",
-    "This is a terminal-native fake OS."
+    "curl",
+    "jq"
   ]
 }
