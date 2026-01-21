@@ -11,7 +11,7 @@
   },
 
   "bin": [
-    "navine-cli-oss",
+    "navine-cli-oss"
   ],
 
   "depends": [
